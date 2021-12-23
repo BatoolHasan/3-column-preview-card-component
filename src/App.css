@@ -45,6 +45,13 @@
   border-radius: 25px;
   text-decoration: none;
   font-family: 'Lexend Deca', sans-serif;
+  border: 2px solid transparent;
+}
+.card a:hover{
+  border: 2px solid var(--Very-light-gray);
+  background-color: transparent;
+  color:var(--Very-light-gray) !important;
+  cursor: pointer;
 }
 footer{
   height:3em;
