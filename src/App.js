@@ -24,7 +24,7 @@ function App() {
       body:"Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style."
     }
   ];
-  return (
+  return (<main>
     <div className="container">
       <div className="container--cards">
         {cards.map((card,i)=>(
@@ -38,6 +38,7 @@ function App() {
         </div>
       </footer>
     </div>
+    </main>
   );
 }
 
